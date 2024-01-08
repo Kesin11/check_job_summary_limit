@@ -6824,18 +6824,4 @@ Run deno lint (0s) :job1-5, after job1-4, 0s
 Post Run /./.github/actions/setup-deno-with-cache (0s) :job1-6, after job1-5, 0s
 Post Run actions/checkout@v4 (0s) :job1-7, after job1-6, 0s
 Complete job (0s) :job1-8, after job1-7, 0s
-section check-dist
-Waiting for a runner (6s) :active, job2-0, 00:00:18, 6s
-Set up job (2s) :job2-1, after job2-0, 2s
-Build k1LoW/octocov-action@v0 (4s) :job2-2, after job2-1, 4s
-Run actions/checkout@v4 (1s) :job2-3, after job2-2, 1s
-Run /./.github/actions/setup-deno-with-cache (7s) :job2-4, after job2-3, 7s
-Rebuild the dist/ directory (7s) :job2-5, after job2-4, 7s
-Upload dist for post job (0s) :job2-6, after job2-5, 0s
-Create dist/*.js size json (0s) :job2-7, after job2-6, 0s
-Create dummy coverage (0s) :job2-8, after job2-7, 0s
-Run k1LoW/octocov-action@v0 (5s) :job2-9, after job2-8, 5s
-Post Run /./.github/actions/setup-deno-with-cache (0s) :job2-10, after job2-9, 0s
-Post Run actions/checkout@v4 (0s) :job2-11, after job2-10, 0s
-Complete job (0s) :job2-12, after job2-11, 0s
 ```
