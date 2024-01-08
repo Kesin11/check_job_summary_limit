@@ -3,6 +3,8 @@ gantt
 title CI
 dateFormat  HH:mm:ss
 axisFormat  %H:%M:%S
+section split_dummy
+split_dummy :done, job0-0, 00:00:00, 65s
 section test
 Waiting for a runner (6s) :active, job0-0, 00:01:05, 6s
 Set up job (0s) :job0-1, after job0-0, 0s
@@ -37,7 +39,7 @@ Post Run /./.github/actions/setup-deno-with-cache (0s) :job2-10, after job2-9, 0
 Post Run actions/checkout@v4 (0s) :job2-11, after job2-10, 0s
 Complete job (0s) :job2-12, after job2-11, 0s
 section run_self
-Waiting for a runner (6s) :active, job3-0, 00:00:57, 6s
+Waiting for a runner (6s) :active, job3-0, 00:02:02, 6s
 Set up job (1s) :job3-1, after job3-0, 1s
 Download bundled dist (1s) :job3-2, after job3-1, 1s
 Run self action (0s) :job3-3, after job3-2, 0s
